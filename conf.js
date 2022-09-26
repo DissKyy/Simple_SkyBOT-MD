@@ -6,7 +6,7 @@ const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.botpublic = opts['test'] ? false : true // Bot Status
 global.sesName = opts['test'] ? 'anubisTest' : 'anubisAuth' // Session Folder
 global.mongoUser = '' //mongo uri
-global.ownerNum = ['6289653909054'] // owner number
+global.ownerNum = ['6285601517617'] // owner number
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
 global.thumb = fs.readFileSync('./library/anubis.jpg')
 global.__root = path.join(__dirname, '/')
